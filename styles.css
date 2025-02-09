@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    margin: 10px;
+}
+
+#description, #meal-details {
+    background: white;
+    padding: 15px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#meals-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#meals-list li {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#meals-list li:hover {
+    background: #0056b3;
+}
